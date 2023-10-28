@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Музикални Фестивали по света</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="contacts.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+    <div class="container-fluid">
+		<div class="row">
+            <header> 
+            <div class="header">
+			
+                <div class="movedown"> 
+					<div class="col-lg-2 col-sm-12">
+						<a href="Begining.html">
+							<img  class="logo" src="images/logo.jpg"  alt="Music-Festivals" >
+						</a>
+					</div>
+                    <div class="col-lg-7 col-sm-12">
+						<h1>
+						<b>Как може да се свържете с нас</b>
+						</H1>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<span class="socials">
+                            <a href="https://www.facebook.com" target="_blank">
+								<img class="facebook" title="Намерете ни във Facebook" src="images/facebook.png" alt="facebook"/></a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img class="twitter" title="Абонирайте се за нас в Twitter" src="images/twitter.png" alt="twitter"/>
+                            <a href="https://www.instagram.com/"  target="_blank">
+                                <img class="instagram" title="Последвайте ни в Instagram" src="images/instagram.png" alt="instagram"/>
+						</span>
+					</div>
+                </div>
+                <img  class="kartina" src="images/Music-Festivals.jpg" alt="Music-Festivals" >
+            </div>
+        </header>
+        <div class="topnav">
+            <a href="Begining.html">Начало</a>
+            <a href="TheFirst.html">Първият музикален фестивал</a>
+            <a href="Rock_fests.html">Исторически Рок Фестивали</a>
+            <a href="festsnow.html">Световните Фестивали в момента</a>
+            <a href="contacts.html">Контакти</a>
+            <a href="About us.html">За нас</a>       
+        </div>
+          
+        <main>
+            <div class="content">
+                <p class="center">
+                    <address>
+                        World Music Festivals<br>
+                        гр.Сочи<br>
+                        Приморская ул., 3А, Сочи, Краснодарский край, Русия, 354009<br>
+                        <!-- Адресът е на клуб Малибу в Сочи който е на вуйчо ми!-->
+                        тел България:/+359/988/305/260/<br>
+                        тел Русия:/+7 999 600-90-30/<br>
+                        International line:/+44/988/305/260/<br>
+                        E-mails:<br>
+                        WorldMusicFestivals@gmail.com<br>
+                        WorldMusicFestivals@mail.ru<br>
+                        WorldMusicFestivals@abv.bg<br>
+                    </address>  
+                     </p>
+                
+                <p class="justify">
+                   Ако вашият фестивал не е добавен или искате да добавите на сайта ни попълнете формата долу и ние ще се свържем с вас:
+                   <form class="form"id="myForm" action="/action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">Име на организатор</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Organization name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Име на фестивал</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Festival name...">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Място на провеждане</label>
+                      </div>
+                      <div class="col-75">
+                        <select id="country" name="country">
+                          <option value="Europe">Европа</option>
+                          <option value="Asia">Азия</option>
+                          <option value="Australia">Австралия</option>
+                          <option value="North Amerika">Северна Америка</option>
+                          <option value="South America">Южна Америка</option>
+                          <option value="Africa">Африка</option>
+                          <option value="Canada">Канада</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Информация за фестивала и телефонен номер</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Information for the festival and phone number.." style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="button" onclick="myFunction()" value="Submit">
+                    </div>
+                  </form>
+                  <script>
+                    function myFunction() {
+                      document.getElementById("myForm").submit();
+                      document.write('<p style="border: 1px solid black; color: black;">Вашата заявка беше изпратена!</p>')
+                    }
+                  </script>
+                </p>
+            </div>
+        </main>
+        <div class="footer center">
+            <p>&copy; 2020 WorldMusicFestivals.com<p>&reg; World Music Festivals All rights reserved</p>
+        </div>    
+    </div>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+.logo{
+    width:100%;
+    height:auto;
+    max-width:130px;
+    float:left;
+    }
+    .socials {
+        float: left;
+        padding-top: 4%;
+    }
+.facebook{
+ width:3.1vw;
+ height: auto;
+ margin-left:1vw;
+ margin-right:0.8vw;
+ }
+.twitter{
+  width:3vw;
+ height: auto;
+/*    margin-left:0.8vw;*/
+ margin-right:0.8vw;
+}
+.instagram{ width:3vw;
+ height: auto;}
+ .kartina{width:100%;}
+ .header {
+    background-color:white;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5VW;
+    color: blue;
+}
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width:80%;
+    background-color: Rgba(1,2,100,0.1);  
+  }
+  h1 {
+    float: left;
+	width: 100%;
+	color: blue;
+	}
+	
+h1:hover {
+	color:green;
+}
+.socials img {
+	width: 3.1vw;
+    height: auto;
+	transition: width 4s, height 4s;
+}
+
+.socials img:hover {
+  width: 5vw;
+  height: auto;
+}
+
+/* Style the content */
+.content {
+  background-color: rgb(21, 184, 196);
+  padding: 10px;
+  line-height: 1.6;
+ 
+}
+.justify{text-align:justify}
+.center{text-align:center}
+/* Style the footer */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@keyframes example {
+from {background-color: green;}
+to {background-color: red;}
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 481px) {
+    body {
+      background-color: rgb(101, 223, 172);
+    }
+    .logo {
+       float: none;
+       margin: 0 auto;
+   }
+     .socials {
+        float: none;
+      padding-top: 4%;
+      margin: 0 auto; 
+     }
+  }
+
+/* Clear floats after the columns */
+
+  @media only screen and (min-width: 769px) {
+   body {
+       background-color: rgb(235, 219, 76);
+   }
+  }
+  
+  @media only screen and (max-width: 768px) {
+   body {
+       background-color: rgb(41, 99, 119);
+   }
+   
+   .kartina {
+       visibility: hidden;
+   }
+  
+  }
+  @media only screen and (max-width: 480px){
+   body {
+       background-color: rgb(99, 62, 202);
+   }
+     .logo {
+       float: none;
+       margin: 0 auto;
+      }
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #faf5f5e3;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: rgb(146, 23, 23);
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    div.Birth2
+       {
+    text-align: justify; 
+    margin-left:0.5%;
+}
+img.birth
+{
+    width: 20vw;;
+    float:right;
+    margin-left: 0.8%;
+}
+   
